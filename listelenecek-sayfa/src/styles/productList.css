@@ -1,0 +1,64 @@
+.product-list-container {
+  padding: 20px;
+  background-color: #ffffff; /* Beyaz arka plan */
+  border-radius: 8px; /* Yuvarlatılmış köşeler */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+.product-list-title {
+  font-size: 26px; /* Başlık boyutu */
+  color: #343a40; /* Koyu gri renk */
+  margin-bottom: 20px;
+  font-weight: bold; /* Kalın yazı */
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap; /* Esnek kutu */
+  gap: 20px; /* Elemanlar arası boşluk */
+}
+
+.product-card {
+  background-color: #f8f9fa; /* Açık gri arka plan */
+  border-radius: 8px; /* Yuvarlatılmış köşeler */
+  border: 1px solid #ced4da; /* Sınır rengi */
+  padding: 15px; /* İç boşluk */
+  width: calc(33.333% - 20px); /* 3 sütun düzeni */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+  transition: transform 0.2s; /* Geçiş efekti */
+}
+
+.product-card:hover {
+  transform: translateY(-5px); /* Hover'da yukarı kaydır */
+}
+
+.product-name {
+  font-size: 20px; /* Ürün adı boyutu */
+  color: #007bff; /* Mavi renk */
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 18px; /* Fiyat boyutu */
+  color: #28a745; /* Yeşil renk */
+  margin-bottom: 10px;
+}
+
+.product-description {
+  font-size: 14px; /* Açıklama boyutu */
+  color: #6c757d; /* Gri renk */
+}
+
+button {
+  background-color: #007bff; /* Mavi arka plan */
+  color: white; /* Beyaz yazı */
+  border: none; /* Kenar yok */
+  border-radius: 4px; /* Yuvarlatılmış köşeler */
+  padding: 10px 15px; /* İç boşluk */
+  cursor: pointer; /* Fare işareti */
+  transition: background-color 0.3s; /* Geçiş efekti */
+}
+
+button:hover {
+  background-color: #0056b3; /* Hover'da daha koyu mavi */
+}

@@ -1,0 +1,51 @@
+.sepet-detayi-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sepet-listesi {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sepet-urunu {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .urun-adi {
+    margin: 0;
+  }
+  
+  .urun-fiyat {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .sil-buton {
+    background-color: #ff4d4d;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sil-buton:hover {
+    background-color: #ff1a1a;
+  }
+  
+  .toplam-fiyat {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
